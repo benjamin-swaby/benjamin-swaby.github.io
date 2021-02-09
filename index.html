@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+
+
+
+<body>
+      
+
+    <div id="div1">
+        <h1>Benjamin-Swaby</h1>
+        <h2>Github      :   https://github.com/benjamin-swaby</h2>
+        <h2>Discord     :   B4listic#0447</h2>
+        <h2>OS          :   Gentoo + Fedora + Openbsd</h2>
+        <h2>Text Editor :   Vim + Vscode</h2>
+        <h2>Desktop env :   Gnome!</h2>
+        <h2>Known Langs :   C, C++, Python, Java, JavaScript, Golang, x86_64 asm</h2>
+        <h2>PC Specs    :   2700x , 2070 super , 16gb ram , 970 evo</h2>
+    </div>
+
+    <div id="div2">
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script>
+        function start() {
+            let run = true
+            while(run)
+            {  
+                let currentDate = new Date()
+                let time = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+                document.getElementById("div2").innerHTML = "<h2>Time   :   "+time+"<\h2>";
+                run = false
+            }
+        }
+
+        start()
+    
+    </script> 
+  
+</body>
+</html>
